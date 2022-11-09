@@ -1,0 +1,40 @@
+.hero-body {
+    background-image: url(https://cdn.fuelrocks.com/1662182565511.jpg);
+background-size: cover;
+background-position: center;
+filter: blur(100%);
+animation: slides 20s infinite;
+}
+
+
+
+.title {
+    color: white !important;
+    font-size: 5vw;
+    box-shadow: 10px !important;
+    text-shadow: rgba(0, 0, 0, 0.8) 2px 3px;
+}
+#Tour {
+    background-color: rgb(250, 250, 250);
+}
+html {
+    scroll-behavior: smooth;
+}
+.pics{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 20px;
+}
+@keyframes slides {
+    0% {
+        background-image: url(https://cdn.fuelrocks.com/1662182565511.jpg);
+    }
+    33% {
+        background-image: url(https://media.istockphoto.com/id/1324561072/nl/foto/party-people-enjoy-concert-at-festival-summer-music-festival.jpg?s=612x612&w=0&k=20&c=MQAvW8uxWaB631fAf3RBKKsHyUwNrQocFdyaKQy4X4I=);
+    }
+    66% {
+        background-image: url(https://media.istockphoto.com/id/1222628897/nl/foto/menigte-van-mensen-die-bij-een-muziekfestival-bij-nacht-toejuichen.jpg?s=612x612&w=0&k=20&c=OhRVxH1P8bkYxgxi6m_H3actLyZHw0j0TFRXol614AY=);
+    }
+    
+}
